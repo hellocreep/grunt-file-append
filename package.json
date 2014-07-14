@@ -1,0 +1,43 @@
+{
+  "name": "grunt-file-append",
+  "description": "Appends and prepends content to files",
+  "version": "0.1.0",
+  "homepage": "https://github.com/devlato/grunt-file-append",
+  "author": {
+    "name": "devlato",
+    "url": "https://github.com/devlato/grunt-file-append"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/devlato/grunt-file-append.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devlato/grunt-file-append/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/devlato/grunt-file-append/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "files",
+    "append",
+    "prepend",
+    "move"
+  ],
+  "files": [
+    "tasks",
+    "LICENSE"
+  ]
+}
