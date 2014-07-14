@@ -6,6 +6,7 @@ grunt-file-append remastered
 
 Here is typical Gruntfile code:
 
+```coffeescript
 module.exports = (grunt) ->
 
   grunt.initConfig
@@ -19,3 +20,4 @@ module.exports = (grunt) ->
 
   grunt.loadTasks 'tasks'
   grunt.registerTask 'default', ['file_append']
+```
