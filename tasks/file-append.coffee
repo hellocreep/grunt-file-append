@@ -14,7 +14,7 @@ module.exports = (grunt) ->
 			return false
 
 		prepend = file.prepend || ""
-		append = file.append || ""
+		append  = file.append  || ""
 		fileContent = grunt.file.read filepath
 		value = "#{ prepend }#{ fileContent }#{ append }"
 		grunt.file.write filepath, value
